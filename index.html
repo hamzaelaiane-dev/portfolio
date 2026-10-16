@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hamza Elaiane — Ingénieur DSI · Portfolio</title>
+<meta name="description" content="Portfolio de Hamza Elaiane, étudiant ingénieur DSI à l'EMSI Casablanca. Recherche PFE 6 mois.">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════════════════
+     SECTION A — SIDEBAR
+     Contenu : photo, nom, nav, réseaux, bouton CV, statut
+     ═══════════════════════════════════════════════════════════ -->
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-inner">
+
+    <div class="profile">
+      <!-- PHOTO DE PROFIL — remplacer le <span>HE</span> par :
+         <img src="photo.jpg" alt="Hamza Elaiane"> -->
+      <div class="avatar">
+        <img src="photo.jpg" alt="Hamza Elaiane"> 
+      </div>
+      <h1>Hamza Elaiane</h1>
+      <p class="role">Ingénieur DSI · 5<sup>e</sup> année</p>
+      <p class="school"><i class="fas fa-graduation-cap"></i> EMSI Casablanca</p>
+    </div>
+
+    <nav class="nav">
+      <a href="#hero" class="nav-link active" data-section="hero"><span class="num">00</span> Accueil</a>
+      <a href="#about" class="nav-link" data-section="about"><span class="num">01</span> À propos</a>
+      <a href="#domains" class="nav-link" data-section="domains"><span class="num">02</span> Domaines PFE</a>
+      <a href="#projects" class="nav-link" data-section="projects"><span class="num">03</span> Projets</a>
+      <a href="#certifs" class="nav-link" data-section="certifs"><span class="num">04</span> Certificats</a>
+      <a href="#skills" class="nav-link" data-section="skills"><span class="num">05</span> Compétences</a>
+      <a href="#contact" class="nav-link" data-section="contact"><span class="num">06</span> Contact</a>
+    </nav>
+
+    <div class="socials">
+      <a href="https://github.com/hamzaelaiane-dev" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/hamza-elaiane-91625b340/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      <a href="mailto:elaianehamza123@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+    </div>
+
+    <a href="cv.pdf" download class="cv-btn">
+      <i class="fas fa-download"></i> Télécharger mon CV
+    </a>
+
+    <p class="status"><span class="dot"></span> Disponible pour un PFE · 6 mois</p>
+
+  </div>
+</aside>
+
+<button class="menu-toggle" id="menuToggle" aria-label="Menu"><i class="fas fa-bars"></i></button>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+     SECTION B — CONTENU PRINCIPAL
+     ═══════════════════════════════════════════════════════════ -->
+<main class="content">
+
+
+  <!-- ═════════════════════════════════════════════════════════
+       SECTION 00 — HERO (Accueil)
+       ═════════════════════════════════════════════════════════ -->
+  <section id="hero" class="hero">
+    <p class="hero-badge">
+      <span class="dot"></span> Disponible pour un stage PFE · 6 mois
+    </p>
+
+    <h1 class="hero-name">Hamza Elaiane.</h1>
+    <p class="hero-role">Ingénieur DSI — 5<sup>e</sup> année, EMSI Casablanca.</p>
+
+    <div class="hero-statement">
+      <p>
+        On m'a souvent demandé ce que je savais faire.
+        <br>
+        La vraie question, c'est : <strong>qu'est-ce que je peux vous apporter ?</strong>
+      </p>
+      <p class="hero-answer">
+        Un esprit d'ingénieur, une vraie rigueur technique, et l'envie de
+        <strong>comprendre avant d'exécuter</strong>.
+      </p>
+    </div>
+
+    <div class="hero-actions">
+      <a href="#projects" class="btn btn-primary">
+        <i class="fas fa-arrow-right"></i> Voir mes projets
+      </a>
+      <a href="cv.pdf" download class="btn btn-ghost">
+        <i class="fas fa-download"></i> Télécharger mon CV
+      </a>
+    </div>
+
+    <div class="hero-foot">
+      <span class="hero-foot-label">Recherche PFE —</span>
+      <span class="hero-foot-list">
+        SI · ERP · Développement · Automatisation
+      </span>
+    </div>
+  </section>
+
+
+  <!-- ═════════════════════════════════════════════════════════
+       SECTION 01 — À PROPOS
+       Parcours : Bac PC BIOF → 2 ans prépa EMSI →
+                  3e année Info & Réseaux → 4e/5e année DSI
+       ═════════════════════════════════════════════════════════ -->
+  <section id="about" class="section">
+    <h2 class="section-title"><span class="num">01.</span> À propos</h2>
+
+    <div class="about-text">
+      <p>
+        Je m'appelle <strong>Hamza Elaiane</strong>, étudiant en 5<sup>e</sup> année
+        du cycle d'ingénieur à l'<strong>EMSI Casablanca</strong>, filière
+        <strong>Développement des Systèmes d'Information</strong>.
+      </p>
+
+      <p>
+        Mon parcours est celui d'un étudiant qui a construit son chemin
+        progressivement à l'EMSI. Après un <strong>Baccalauréat en Sciences
+        Physiques, option Sciences de l'Ingénieur</strong>, j'ai intégré l'école
+        en <strong>cycle préparatoire</strong> pendant deux ans. C'est en
+        <strong>3<sup>e</sup> année</strong> que je me suis orienté vers la filière
+        <strong>Informatique et Réseaux</strong>, avant de choisir en
+        <strong>4<sup>e</sup> année</strong> la spécialité <strong>DSI</strong>,
+        qui correspond le mieux à ce que j'aime : construire des systèmes
+        d'information utiles, fiables et bien pensés.
+      </p>
+
+      <p>
+        L'informatique n'est pas venue du jour au lendemain : elle est née
+        d'une <strong>curiosité personnelle</strong>, d'un ordinateur ouvert,
+        de logiciels installés, cassés, réparés. C'est cette curiosité — plus
+        que les cours — qui m'a donné envie d'en faire mon métier.
+      </p>
+
+      <p>
+        Ce que j'aime dans l'ingénierie, ce n'est pas d'accumuler des
+        technologies : c'est de <strong>résoudre de vrais problèmes</strong>
+        et de proposer des <strong>solutions qui tiennent</strong>. C'est ce
+        que je cherche à faire dans chacun de mes projets — comprendre
+        le besoin, réfléchir, construire, livrer.
+      </p>
+
+      <p>
+        Pour mon <strong>PFE de 6 mois</strong>, je cherche un projet où je peux
+        m'investir sérieusement, apprendre aux côtés d'ingénieurs expérimentés,
+        et contribuer concrètement à un système d'information.
+      </p>
+    </div>
+
+    <div class="info-grid">
+      <div class="info-item">
+        <span class="info-label">Formation</span>
+        <span class="info-value">Cycle ingénieur DSI — EMSI Casablanca</span>
+      </div>
+      <div class="info-item">
+        <span class="info-label">Parcours</span>
+        <span class="info-value">Prépa EMSI → Info &amp; Réseaux → DSI</span>
+      </div>
+      <div class="info-item">
+        <span class="info-label">Recherche</span>
+        <span class="info-value">Stage PFE — 6 mois</span>
+      </div>
+      <div class="info-item">
+        <span class="info-label">Localisation</span>
+        <span class="info-value">Casablanca, Maroc</span>
+      </div>
+      <div class="info-item">
+        <span class="info-label">Langues</span>
+        <span class="info-value">Arabe · Français · Anglais</span>
+      </div>
+      <div class="info-item">
+        <span class="info-label">Mobilité</span>
+        <span class="info-value">Casablanca &amp; environs</span>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═════════════════════════════════════════════════════════
+       SECTION 02 — DOMAINES PFE
+       Domaines réalistes pour un profil DSI
+       ═════════════════════════════════════════════════════════ -->
+  <section id="domains" class="section">
+    <h2 class="section-title"><span class="num">02.</span> Domaines PFE ciblés</h2>
+    <p class="section-intro">
+      Les domaines dans lesquels je souhaite m'investir durant mon stage de fin
+      d'études, en cohérence avec ma formation DSI.
+    </p>
+
+    <div class="domains-grid">
+      <div class="domain-card">
+        <div class="domain-icon"><i class="fas fa-sitemap"></i></div>
+        <h3>Systèmes d'Information</h3>
+        <p>Conception, modélisation et développement de SI métiers. Analyse des besoins, UML, architecture applicative.</p>
+      </div>
+      <div class="domain-card">
+        <div class="domain-icon"><i class="fas fa-cubes"></i></div>
+        <h3>ERP &amp; SAP</h3>
+        <p>Compréhension des processus ERP, paramétrage, intégration de modules, interfaçage avec les systèmes existants.</p>
+      </div>
+      <div class="domain-card">
+        <div class="domain-icon"><i class="fas fa-code"></i></div>
+        <h3>Développement Full-Stack</h3>
+        <p>Backend Spring Boot / Django / FastAPI, frontend Angular / React, API REST sécurisées par JWT.</p>
+      </div>
+      <div class="domain-card">
+        <div class="domain-icon"><i class="fas fa-database"></i></div>
+        <h3>Data &amp; Analyse</h3>
+        <p>Modélisation, extraction et analyse de données. Bases relationnelles Oracle, MySQL, PostgreSQL.</p>
+      </div>
+      <div class="domain-card">
+        <div class="domain-icon"><i class="fas fa-robot"></i></div>
+        <h3>Automatisation</h3>
+        <p>Automatisation de traitements métiers, scripts, pipelines d'extraction et de contrôle de données.</p>
+      </div>
+      <div class="domain-card">
+        <div class="domain-icon"><i class="fas fa-project-diagram"></i></div>
+        <h3>Gestion de projet SI</h3>
+        <p>Méthodes agiles, cadrage fonctionnel, suivi de projet, coordination entre équipes techniques et métier.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═════════════════════════════════════════════════════════
+       SECTION 03 — PROJETS
+       Chaque projet = explication simple + modale "Voir les détails"
+       ═════════════════════════════════════════════════════════ -->
+  <section id="projects" class="section">
+    <h2 class="section-title"><span class="num">03.</span> Projets sélectionnés</h2>
+    <p class="section-intro">
+      Deux projets menés en entreprise et quatre projets académiques, sélectionnés
+      pour illustrer ma capacité à concevoir et livrer des solutions complètes.
+    </p>
+
+    <!-- ─── 3.A — PROJETS PROFESSIONNELS (visuel premium) ─── -->
+    <h3 class="subsection-title"><span class="subsection-num">A.</span> Projets professionnels — Stages</h3>
+
+    <!-- Projet 1 — BankFlow -->
+    <article class="case case-pro">
+      <div class="case-visual case-visual-pro" style="--c1:#10b981; --c2:#064e3b;">
+        <!-- Remplacer <i> par <img src="bankflow.jpg" alt="BankFlow"> -->
+        <i class="fas fa-university"></i>
+        <span class="case-num">01</span>
+        <span class="case-pro-badge">PRO</span>
+      </div>
+      <div class="case-body">
+        <header class="case-head">
+          <div>
+            <h3>BankFlow</h3>
+            <p class="case-meta">Stage · ALEXSYS Solutions · IA &amp; Data</p>
+          </div>
+          <div class="case-score">
+            <span class="score-num">4.6<small>/5</small></span>
+            <div class="score-bar"><span style="width:92%"></span></div>
+          </div>
+        </header>
+        <p class="case-desc">
+          Plateforme intelligente d'analyse de relevés bancaires : import de
+          documents, extraction automatique par OCR, et structuration des
+          opérations par IA locale.
+        </p>
+        <div class="case-tags">
+          <span>Python</span><span>FastAPI</span><span>PostgreSQL</span>
+          <span>Ollama</span><span>OCR</span><span>React</span>
+        </div>
+        <button class="case-more" data-modal="modal-bankflow">
+          Voir les détails <i class="fas fa-arrow-right"></i>
+        </button>
+      </div>
+    </article>
+
+    <!-- Projet 2 — HydroComp -->
+    <article class="case case-pro">
+      <div class="case-visual case-visual-pro" style="--c1:#38bdf8; --c2:#0c4a6e;">
+        <i class="fas fa-boxes-stacked"></i>
+        <span class="case-num">02</span>
+        <span class="case-pro-badge">PRO</span>
+      </div>
+      <div class="case-body">
+        <header class="case-head">
+          <div>
+            <h3>HydroComp</h3>
+            <p class="case-meta">Stage · HydroComp · Full-Stack</p>
+          </div>
+          <div class="case-score">
+            <span class="score-num">4.2<small>/5</small></span>
+            <div class="score-bar"><span style="width:84%"></span></div>
+          </div>
+        </header>
+        <p class="case-desc">
+          Application de gestion commerciale pour une entreprise de pièces
+          de rechange : stocks, entrées/sorties, alertes et back-office
+          d'administration.
+        </p>
+        <div class="case-tags">
+          <span>Python</span><span>Django</span><span>SQLite</span><span>Angular</span>
+        </div>
+        <button class="case-more" data-modal="modal-hydrocomp">
+          Voir les détails <i class="fas fa-arrow-right"></i>
+        </button>
+      </div>
+    </article>
+
+    <!-- ─── 3.B — PROJETS ACADÉMIQUES ─── -->
+    <h3 class="subsection-title"><span class="subsection-num">B.</span> Projets académiques — EMSI</h3>
+
+    <!-- Projet 3 — AHForms -->
+    <article class="case">
+      <div class="case-visual" style="--c1:#a78bfa; --c2:#4c1d95;">
+        <i class="fas fa-graduation-cap"></i>
+        <span class="case-num">03</span>
+      </div>
+      <div class="case-body">
+        <header class="case-head">
+          <div>
+            <h3>AHForms</h3>
+            <p class="case-meta">Académique · E-learning &amp; IA</p>
+          </div>
+          <div class="case-score">
+            <span class="score-num">4.3<small>/5</small></span>
+            <div class="score-bar"><span style="width:86%"></span></div>
+          </div>
+        </header>
+        <p class="case-desc">
+          Plateforme de formation en ligne : cours, évaluations, certificats,
+          et chatbot intelligent pour assister les apprenants.
+        </p>
+        <div class="case-tags">
+          <span>Python</span><span>Flask</span><span>HTML</span>
+          <span>CSS</span><span>SQLite</span><span>IA</span>
+        </div>
+        <button class="case-more" data-modal="modal-ahforms">
+          Voir les détails <i class="fas fa-arrow-right"></i>
+        </button>
+      </div>
+    </article>
+
+    <!-- Projet 4 — Transito -->
+    <article class="case">
+      <div class="case-visual" style="--c1:#fb923c; --c2:#7c2d12;">
+        <i class="fas fa-truck-fast"></i>
+        <span class="case-num">04</span>
+      </div>
+      <div class="case-body">
+        <header class="case-head">
+          <div>
+            <h3>Transito</h3>
+            <p class="case-meta">Académique · Spring Boot · Entrepreneuriat</p>
+          </div>
+          <div class="case-score">
+            <span class="score-num">4.4<small>/5</small></span>
+            <div class="score-bar"><span style="width:88%"></span></div>
+          </div>
+        </header>
+        <p class="case-desc">
+          Solution de transport et livraison de colis sur le modèle des
+          plateformes de mobilité, avec authentification JWT et gestion
+          de rôles.
+        </p>
+        <div class="case-tags">
+          <span>Spring Boot</span><span>Maven</span><span>MySQL</span><span>JWT</span>
+        </div>
+        <button class="case-more" data-modal="modal-transito">
+          Voir les détails <i class="fas fa-arrow-right"></i>
+        </button>
+      </div>
+    </article>
+
+    <!-- Projet 5 — Mercedes Parts Manager -->
+    <article class="case">
+      <div class="case-visual" style="--c1:#e5e7eb; --c2:#334155;">
+        <i class="fas fa-car"></i>
+        <span class="case-num">05</span>
+      </div>
+      <div class="case-body">
+        <header class="case-head">
+          <div>
+            <h3>Mercedes Parts Manager</h3>
+            <p class="case-meta">Académique · Application desktop</p>
+          </div>
+          <div class="case-score">
+            <span class="score-num">4.0<small>/5</small></span>
+            <div class="score-bar"><span style="width:80%"></span></div>
+          </div>
+        </header>
+        <p class="case-desc">
+          Application desktop de gestion des pièces automobiles Mercedes :
+          catalogue, stocks, ventes, factures. Interface JavaFX soignée.
+        </p>
+        <div class="case-tags">
+          <span>Java</span><span>JavaFX</span><span>Scene Builder</span><span>MySQL</span>
+        </div>
+        <button class="case-more" data-modal="modal-mercedes">
+          Voir les détails <i class="fas fa-arrow-right"></i>
+        </button>
+      </div>
+    </article>
+
+    <!-- Projet 6 — Movies App -->
+    <article class="case">
+      <div class="case-visual" style="--c1:#f472b6; --c2:#831843;">
+        <i class="fas fa-film"></i>
+        <span class="case-num">06</span>
+      </div>
+      <div class="case-body">
+        <header class="case-head">
+          <div>
+            <h3>Movies App</h3>
+            <p class="case-meta">Académique · Application mobile</p>
+          </div>
+          <div class="case-score">
+            <span class="score-num">4.0<small>/5</small></span>
+            <div class="score-bar"><span style="width:80%"></span></div>
+          </div>
+        </header>
+        <p class="case-desc">
+          Application Android de découverte de films : authentification,
+          recherche vocale via microphone et assistance IA pour affiner
+          les suggestions.
+        </p>
+        <div class="case-tags">
+          <span>Java</span><span>XML</span><span>Gradle</span>
+          <span>Android</span><span>IA</span>
+        </div>
+        <button class="case-more" data-modal="modal-movies">
+          Voir les détails <i class="fas fa-arrow-right"></i>
+        </button>
+      </div>
+    </article>
+
+  </section>
+
+
+  <!-- ═════════════════════════════════════════════════════════
+       SECTION 04 — CERTIFICATS
+       ═════════════════════════════════════════════════════════ -->
+  <section id="certifs" class="section">
+    <h2 class="section-title"><span class="num">04.</span> Certificats &amp; Formations</h2>
+    <p class="section-intro">
+      Certifications suivies en complément de mon cursus ingénieur.
+    </p>
+
+    <h3 class="subsection-title"><span class="subsection-num">A.</span> Google — Coursera</h3>
+    <div class="certifs-grid">
+      <div class="certif-card">
+        <div class="certif-image">
+          <!-- <img src="certif-google-ai.jpg" alt="AI Fundamentals"> -->
+          <i class="fas fa-brain"></i>
+          <span class="certif-image-label">Aperçu</span>
+        </div>
+        <div class="certif-body">
+          <h3>AI Fundamentals</h3>
+          <p class="certif-issuer">Google · Coursera</p>
+          <p class="certif-desc">Fondamentaux de l'intelligence artificielle et applications pratiques.</p>
+          <span class="certif-status done">Obtenu</span>
+        </div>
+      </div>
+      <div class="certif-card">
+        <div class="certif-image">
+          <!-- <img src="certif-google-data.jpg" alt="Data Fundamentals"> -->
+          <i class="fas fa-chart-line"></i>
+          <span class="certif-image-label">Aperçu</span>
+        </div>
+        <div class="certif-body">
+          <h3>Foundations: Data, Data, Everywhere</h3>
+          <p class="certif-issuer">Google · Coursera</p>
+          <p class="certif-desc">Fondamentaux de la donnée et de l'analyse de données.</p>
+          <span class="certif-status done">Obtenu</span>
+        </div>
+      </div>
+      <div class="certif-card">
+        <div class="certif-image">
+          <!-- <img src="certif-google-agile.jpg" alt="Agile Project Management"> -->
+          <i class="fas fa-diagram-project"></i>
+          <span class="certif-image-label">Aperçu</span>
+        </div>
+        <div class="certif-body">
+          <h3>Agile Project Management</h3>
+          <p class="certif-issuer">Google · Coursera</p>
+          <p class="certif-desc">Gestion de projet agile, méthodes Scrum et organisation d'équipe.</p>
+          <span class="certif-status done">Obtenu</span>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="subsection-title"><span class="subsection-num">B.</span> Coursera — Universités partenaires</h3>
+    <div class="certifs-grid">
+      <div class="certif-card">
+        <div class="certif-image">
+          <!-- <img src="certif-react-basics.jpg" alt="React Basics"> -->
+          <i class="fab fa-react"></i>
+          <span class="certif-image-label">Aperçu</span>
+        </div>
+        <div class="certif-body">
+          <h3>React Basics</h3>
+          <p class="certif-issuer">Coursera · Décembre 2025</p>
+          <p class="certif-desc">Fondamentaux de React : composants, état, props, hooks.</p>
+          <span class="certif-status done">Obtenu</span>
+        </div>
+      </div>
+      <div class="certif-card">
+        <div class="certif-image">
+          <!-- <img src="certif-react-native.jpg" alt="React Native"> -->
+          <i class="fas fa-mobile-alt"></i>
+          <span class="certif-image-label">Aperçu</span>
+        </div>
+        <div class="certif-body">
+          <h3>React Native</h3>
+          <p class="certif-issuer">Coursera · Décembre 2025</p>
+          <p class="certif-desc">Développement d'applications mobiles cross-platform avec React Native.</p>
+          <span class="certif-status done">Obtenu</span>
+        </div>
+      </div>
+      <div class="certif-card">
+        <div class="certif-image">
+          <!-- <img src="certif-js-michigan.jpg" alt="Interactivité JavaScript"> -->
+          <i class="fab fa-js"></i>
+          <span class="certif-image-label">Aperçu</span>
+        </div>
+        <div class="certif-body">
+          <h3>Interactivité avec JavaScript</h3>
+          <p class="certif-issuer">University of Michigan · Janvier 2025</p>
+          <p class="certif-desc">Interactions dynamiques côté client, DOM, événements, logique JS.</p>
+          <span class="certif-status done">Obtenu</span>
+        </div>
+      </div>
+      <div class="certif-card">
+        <div class="certif-image">
+          <!-- <img src="certif-negotiation.jpg" alt="Négociation"> -->
+          <i class="fas fa-handshake"></i>
+          <span class="certif-image-label">Aperçu</span>
+        </div>
+        <div class="certif-body">
+          <h3>Négocier avec succès</h3>
+          <p class="certif-issuer">University of Michigan · Janvier 2025</p>
+          <p class="certif-desc">Stratégies et capacités essentielles de la négociation professionnelle.</p>
+          <span class="certif-status done">Obtenu</span>
+        </div>
+      </div>
+      <div class="certif-card">
+        <div class="certif-image">
+          <!-- <img src="certif-unix.jpg" alt="L'atelier Unix"> -->
+          <i class="fas fa-terminal"></i>
+          <span class="certif-image-label">Aperçu</span>
+        </div>
+        <div class="certif-body">
+          <h3>L'atelier Unix</h3>
+          <p class="certif-issuer">Johns Hopkins University · Janvier 2025</p>
+          <p class="certif-desc">Maîtrise de l'environnement Unix, shell, commandes essentielles.</p>
+          <span class="certif-status done">Obtenu</span>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="subsection-title"><span class="subsection-num">C.</span> Oracle University</h3>
+    <div class="certifs-grid">
+      <div class="certif-card">
+        <div class="certif-image">
+          <!-- <img src="certif-oracle-java17.jpg" alt="Oracle Java 17"> -->
+          <i class="fab fa-java"></i>
+          <span class="certif-image-label">Aperçu</span>
+        </div>
+        <div class="certif-body">
+          <h3>Oracle Java 17</h3>
+          <p class="certif-issuer">Oracle University</p>
+          <p class="certif-desc">Certification Oracle sur Java 17 : syntaxe, POO, collections, concurrence.</p>
+          <span class="certif-status pending">En préparation</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═════════════════════════════════════════════════════════
+       SECTION 05 — COMPÉTENCES
+       ═════════════════════════════════════════════════════════ -->
+  <section id="skills" class="section">
+    <h2 class="section-title"><span class="num">05.</span> Compétences techniques</h2>
+
+    <div class="skills-block">
+      <h3 class="skills-cat">Langages de programmation</h3>
+      <div class="pills">
+        <span>Java</span><span>Python</span><span>JavaScript</span>
+        <span>TypeScript</span><span>PHP</span><span>C</span><span>C++</span>
+        <span>SQL</span><span>Dart</span>
+      </div>
+    </div>
+
+    <div class="skills-block">
+      <h3 class="skills-cat">Frameworks &amp; Bibliothèques</h3>
+      <div class="pills">
+        <span>Spring Boot</span><span>Django</span><span>Flask</span>
+        <span>FastAPI</span><span>Angular</span><span>React</span>
+        <span>React Native</span><span>Flutter</span><span>JavaFX</span>
+      </div>
+    </div>
+
+    <div class="skills-block">
+      <h3 class="skills-cat">Bases de données</h3>
+      <div class="pills">
+        <span>Oracle</span><span>MySQL</span><span>PostgreSQL</span><span>SQLite</span>
+      </div>
+    </div>
+
+    <div class="skills-block">
+      <h3 class="skills-cat">IA &amp; Data</h3>
+      <div class="pills">
+        <span>OCR</span><span>Ollama</span><span>Big Data</span>
+        <span>Analyse de données</span><span>Programmation linéaire</span>
+      </div>
+    </div>
+
+    <div class="skills-block">
+      <h3 class="skills-cat">Méthodes &amp; Gestion de projet</h3>
+      <div class="pills">
+        <span>Agile</span><span>Scrum</span><span>UML</span>
+        <span>Gestion de projet</span><span>Analyse des besoins</span>
+      </div>
+    </div>
+
+    <div class="skills-block">
+      <h3 class="skills-cat">Outils, Sécurité &amp; Systèmes</h3>
+      <div class="pills">
+        <span>Git / GitHub</span><span>Maven</span><span>Gradle</span>
+        <span>Unix / Shell</span><span>JWT</span>
+        <span>Sécurité Web</span><span>Sécurité Réseau</span>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═════════════════════════════════════════════════════════
+       SECTION 06 — CONTACT
+       Bouton "Me contacter" ouvre un menu 3 options :
+       Téléphone / Email / LinkedIn
+       ═════════════════════════════════════════════════════════ -->
+  <section id="contact" class="section">
+    <h2 class="section-title"><span class="num">06.</span> Contact</h2>
+
+    <div class="contact-cta">
+      <h3>À la recherche d'un stage PFE de 6 mois</h3>
+      <p>
+        Vous avez un projet en <strong>SI</strong>, <strong>SAP</strong>, <strong>ERP</strong>,
+        <strong>développement full-stack</strong> ou <strong>automatisation</strong> ?
+        Discutons-en.
+      </p>
+      <button class="btn btn-primary" id="openContact">
+        <i class="fas fa-paper-plane"></i> Me contacter
+      </button>
+    </div>
+
+    <div class="contact-grid">
+      <a href="tel:+212660208472" class="contact-card">
+        <i class="fas fa-phone"></i>
+        <span class="contact-label">Téléphone</span>
+        <span class="contact-value">06 60 20 84 72</span>
+      </a>
+      <a href="mailto:elaianehamza123@gmail.com" class="contact-card">
+        <i class="fas fa-envelope"></i>
+        <span class="contact-label">Email</span>
+        <span class="contact-value">elaianehamza123@gmail.com</span>
+      </a>
+      <a href="https://www.linkedin.com/in/hamza-elaiane-91625b340/" target="_blank" class="contact-card">
+        <i class="fab fa-linkedin-in"></i>
+        <span class="contact-label">LinkedIn</span>
+        <span class="contact-value">hamza-elaiane-91625b340</span>
+      </a>
+    </div>
+  </section>
+
+
+  <!-- ═════════════════════════════════════════════════════════
+       SECTION 07 — FOOTER
+       ═════════════════════════════════════════════════════════ -->
+  <footer class="footer">
+    <p>Conçu &amp; développé par Hamza Elaiane · <span id="year"></span></p>
+  </footer>
+
+
+</main>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+     SECTION M — MODALES PROJETS
+     Chaque modale = détails complets d'un projet
+     ═══════════════════════════════════════════════════════════ -->
+
+<!-- Modale BankFlow -->
+<div class="modal" id="modal-bankflow">
+  <div class="modal-content">
+    <button class="modal-close" aria-label="Fermer"><i class="fas fa-times"></i></button>
+    <p class="modal-meta">Stage · ALEXSYS Solutions</p>
+    <h2>BankFlow</h2>
+    <p class="modal-sub">Plateforme d'analyse intelligente de relevés bancaires</p>
+
+    <h3>Le problème</h3>
+    <p>Les relevés bancaires arrivent sous des formats variés (PDF, images) et
+    l'analyse manuelle est longue, fastidieuse et source d'erreurs.</p>
+
+    <h3>La solution</h3>
+    <p>Une plateforme qui importe un document, en extrait le texte par OCR,
+    puis utilise un modèle IA local (Ollama) pour structurer, vérifier et
+    catégoriser les opérations. Les résultats sont exposés via une API REST
+    sécurisée et visualisés dans une interface web moderne.</p>
+
+    <h3>Technologies</h3>
+    <div class="modal-tags">
+      <span>Python</span><span>FastAPI</span><span>PostgreSQL</span>
+      <span>Ollama</span><span>OCR</span><span>React</span><span>Vite</span>
+    </div>
+  </div>
+</div>
+
+<!-- Modale HydroComp -->
+<div class="modal" id="modal-hydrocomp">
+  <div class="modal-content">
+    <button class="modal-close" aria-label="Fermer"><i class="fas fa-times"></i></button>
+    <p class="modal-meta">Stage · HydroComp</p>
+    <h2>HydroComp</h2>
+    <p class="modal-sub">Application de gestion commerciale de pièces de rechange</p>
+
+    <h3>Le besoin</h3>
+    <p>L'entreprise avait besoin de suivre ses stocks, ses entrées/sorties et
+    ses alertes de seuil dans un outil unique et fiable.</p>
+
+    <h3>La solution</h3>
+    <p>Application web complète : gestion des stocks en temps réel, suivi des
+    mouvements, alertes automatiques et back-office d'administration. Backend
+    Django exposant une API REST consommée par un frontend Angular.</p>
+
+    <h3>Technologies</h3>
+    <div class="modal-tags">
+      <span>Python</span><span>Django</span><span>SQLite</span><span>Angular</span>
+    </div>
+  </div>
+</div>
+
+<!-- Modale AHForms -->
+<div class="modal" id="modal-ahforms">
+  <div class="modal-content">
+    <button class="modal-close" aria-label="Fermer"><i class="fas fa-times"></i></button>
+    <p class="modal-meta">Projet académique · EMSI</p>
+    <h2>AHForms</h2>
+    <p class="modal-sub">Plateforme de formation en ligne avec chatbot IA</p>
+
+    <h3>Le projet</h3>
+    <p>Plateforme e-learning avec catalogue de cours, suivi de progression,
+    passage d'évaluations et délivrance automatique de certificats. Intègre
+    un chatbot intelligent pour assister les apprenants.</p>
+
+    <h3>Technologies</h3>
+    <div class="modal-tags">
+      <span>Python</span><span>Flask</span><span>HTML</span>
+      <span>CSS</span><span>SQLite</span><span>IA</span>
+    </div>
+  </div>
+</div>
+
+<!-- Modale Transito -->
+<div class="modal" id="modal-transito">
+  <div class="modal-content">
+    <button class="modal-close" aria-label="Fermer"><i class="fas fa-times"></i></button>
+    <p class="modal-meta">Projet académique · EMSI</p>
+    <h2>Transito</h2>
+    <p class="modal-sub">Solution de transport et livraison de colis</p>
+
+    <h3>Le projet</h3>
+    <p>Solution type inDrive pour le transport de colis, combinant gestion de
+    projet et démarche entrepreneuriale. Backend Spring Boot, sécurité JWT,
+    gestion des rôles (client, transporteur, admin).</p>
+
+    <h3>Technologies</h3>
+    <div class="modal-tags">
+      <span>Spring Boot</span><span>Maven</span><span>MySQL</span><span>JWT</span>
+    </div>
+  </div>
+</div>
+
+<!-- Modale Mercedes -->
+<div class="modal" id="modal-mercedes">
+  <div class="modal-content">
+    <button class="modal-close" aria-label="Fermer"><i class="fas fa-times"></i></button>
+    <p class="modal-meta">Projet académique · EMSI</p>
+    <h2>Mercedes Parts Manager</h2>
+    <p class="modal-sub">Application desktop de gestion de pièces automobiles</p>
+
+    <h3>Le projet</h3>
+    <p>Application desktop pour une entreprise de pièces Mercedes : catalogue,
+    stocks, ventes, factures. Interface JavaFX soignée avec Scene Builder,
+    base MySQL pour la persistance.</p>
+
+    <h3>Technologies</h3>
+    <div class="modal-tags">
+      <span>Java</span><span>JavaFX</span><span>Scene Builder</span><span>MySQL</span>
+    </div>
+  </div>
+</div>
+
+<!-- Modale Movies App -->
+<div class="modal" id="modal-movies">
+  <div class="modal-content">
+    <button class="modal-close" aria-label="Fermer"><i class="fas fa-times"></i></button>
+    <p class="modal-meta">Projet académique · EMSI</p>
+    <h2>Movies App</h2>
+    <p class="modal-sub">Application mobile Android de découverte de films</p>
+
+    <h3>Le projet</h3>
+    <p>Application mobile avec authentification, recherche vocale via microphone
+    et assistance IA pour affiner les suggestions. Bandes-annonces diffusées
+    via YouTube. Construite en Java/XML, buildée avec Gradle.</p>
+
+    <h3>Technologies</h3>
+    <div class="modal-tags">
+      <span>Java</span><span>XML</span><span>Gradle</span>
+      <span>Android</span><span>IA</span>
+    </div>
+  </div>
+</div>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+     SECTION M2 — MODALE CONTACT (3 options)
+     ═══════════════════════════════════════════════════════════ -->
+<div class="modal" id="modal-contact">
+  <div class="modal-content modal-contact-content">
+    <button class="modal-close" aria-label="Fermer"><i class="fas fa-times"></i></button>
+    <p class="modal-meta">Contact</p>
+    <h2>Me contacter</h2>
+    <p class="modal-sub">Choisissez le moyen qui vous convient.</p>
+
+    <div class="contact-options">
+      <a href="tel:+212660208472" class="contact-option">
+        <div class="contact-option-icon"><i class="fas fa-phone"></i></div>
+        <div class="contact-option-body">
+          <span class="contact-option-label">Téléphone</span>
+          <span class="contact-option-value">06 60 20 84 72</span>
+        </div>
+        <i class="fas fa-arrow-right contact-option-arrow"></i>
+      </a>
+      <a href="mailto:elaianehamza123@gmail.com" class="contact-option">
+        <div class="contact-option-icon"><i class="fas fa-envelope"></i></div>
+        <div class="contact-option-body">
+          <span class="contact-option-label">Email</span>
+          <span class="contact-option-value">elaianehamza123@gmail.com</span>
+        </div>
+        <i class="fas fa-arrow-right contact-option-arrow"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/hamza-elaiane-91625b340/" target="_blank" class="contact-option">
+        <div class="contact-option-icon"><i class="fab fa-linkedin-in"></i></div>
+        <div class="contact-option-body">
+          <span class="contact-option-label">LinkedIn</span>
+          <span class="contact-option-value">hamza-elaiane-91625b340</span>
+        </div>
+        <i class="fas fa-arrow-right contact-option-arrow"></i>
+      </a>
+    </div>
+  </div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
